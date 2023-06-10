@@ -46,6 +46,12 @@ main{
     margin-left: 0;
 }
 
-.slick-list{
-    margin-right: -30px;
-}
+
+@media (max-width: 640px) { 
+    .slick-list{
+        margin-right:0;
+    }
+    /* .slick-active{
+        margin-right: 40px;
+    } */
+ }

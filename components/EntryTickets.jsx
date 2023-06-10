@@ -1,34 +1,33 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Image from 'next/image';
 
 const EntryTickets = () => {
   return (
-    <div className="container ">
-      <div className=" absolute top-[950px]  lg:top[1000px]  flex md:gap-x-54 flex-col md:flex-row">
-        <div className="text-left justify-left w-[500px] md:w-[565.7px] h-[378px]">
-          <Image src="/zimo-logo.png" width={300} height={144} alt="" />
-          <div className="h-[185px] leading-8 w-[500px] mt-5 uppercase tracking-wider text-left mb-3">
-            <p className="text-[40px] mb-8">one source</p>
-            <p className="text-[60px] mb-10">entry tickets</p>
-            <p className="text-[20px] mb-5">FOR ALL PREMIUM LISTINGS</p>
+    <div className="container mx-auto ">
+      <div className=" absolute top-[1600px] md:top[1800px] lg:mt-[5px] xl:mt-[400px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
+        <div className="text-left lg:flex-1 lg:justify-left justify-center items-center ">
+          <img src="/zimo-logo.png" className='w-[200px] h-[50px] md:w-[200px] md:h-[80px] lg:w-[270px] lg:h-[90px]'  alt="" />
+          <div className=" leading-2 mt-5 uppercase tracking-[4px] text-left mb-3">
+            <p className="text-2xl  lg:text-[40px] lg:mb-8">one source</p>
+            <p className="text-3xl lg:text-[50px] lg:mb-10">entry tickets</p>
+            <p className="text-lg md:text-sm lg:text-[20px] lg:mb-5">FOR ALL PREMIUM LISTINGS</p>
           </div>
         </div>
-        <div className="items-left md:justify-right w-[500px] h-[400px] md:w-[800px] md:h-[550px]">
+        <div className="lg:items-left justify-center items-center lg:justify-right lg:flex-2 float-right">
           <div
-            className="flex flex-col absolute md:justify-end w-[500px] h-[400px]
-        md:w-[800px] md:h-[550px] "
+            className="flex flex-col flex-2 items-center  w-[490px] h-[400px] lg:w-[600px] lg:h-[500px] xl:w-[900px] xl:h-[600px]"
           >
-            <Image
+            <img
               src="/65c8a1f0ee7329a44d1812b2f35ced5c.jpg"
               className="rounded-md
             bg-contain bg-no-repeat bg-center
-            backdrop-opacity-70 bg-black/40 insert-0 object-cover"
-              width={760}
-              height={550}
+            backdrop-opacity-70 bg-black/40 insert-0 object-cover w-full h-full lg:w-full lg:h-full xl:w-full xl:h-full"
+              
               alt="/"
             />
 
-            <span className="text-xm md:text-3xl uppercase text-center pt-5 tracking-wider">
+            <span className="text-xm md:text-xl uppercase text-center pt-5 tracking-wider">
               let your dreams come true
             </span>
           </div>

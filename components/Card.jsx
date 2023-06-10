@@ -1,12 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import Image from 'next/image';
 
-const Card = ({img}) => {
+const Card = ({img, imgDesc}) => {
   return (
-    <div className='w-[400px] md:w-full'>
-        <div>
-            <Image className='h-[420px] w-[420] object-cover rounded-2xl' width={420} height={420} src={img} alt="team-member" />
-        </div>
+    <div className='md:w-full w-[300px] container relative text-center mx-auto'>
+            <img className='h-[300px] w-[300px] object-cover rounded-2xl'  src={img} alt="team-member" />
+            <p class="absolute left-[50%] top-[90%] -translate-x-1/2 -translate-y-1/2 text-[20px] text-white ">{imgDesc}</p>
+            
     </div>
   )
 }

@@ -5,15 +5,15 @@ import NextArrow from './NextArrow';
 import PrevArrow from './PrevArrow';
 
 const images = [
-    { img : "/pic-1.jpg"},
-    { img : "/pic-2.png"},
-    { img : "/pic-3.jpg"},
-    { img : "/pic-4.png"},
-    { img : "/pic-5.png"},
-    { img : "/pic-6.png"},
-    { img : "/pic-7.png"},
-    { img : "/pic-8.jpg"},
-]
+  { img: "/pic-1.jpg", imgDesc: "JETS" },
+  { img: "/pic-2.png", imgDesc: "PRIVATE ISLANDS" },
+  { img: "/pic-3.jpg", imgDesc: "REAL ESTATE" },
+  { img: "/pic-4.png", imgDesc: "CARS" },
+  { img: "/pic-5.png", imgDesc: "YACHTS" },
+  { img: "/pic-6.png", imgDesc: "WATCHES" },
+  { img: "/pic-7.png", imgDesc: "TRAVEL THE WORLD" },
+  { img: "/pic-8.jpg", imgDesc: "DIAMONDS" },
+];
 
 const MySlider = () => {
 
@@ -36,7 +36,7 @@ const MySlider = () => {
     },[])
     const settings = {
         arrows:true,
-        infinite:false,
+        infinite:true,
         speed:500,
         slidesToShow:4,
         slidesToScroll:1,
@@ -67,18 +67,18 @@ const MySlider = () => {
 
     }
   return (
-    <div className='container-fluid md:container w-[400px] mx-auto  top-[250px] md:top-[100px] lg:top-[10%]'>
-        <div className='top-[1000px]'>
-            <h1 className=' uppercase text-[40px] text-left mt-[20px] mb-[50px] leading-8 tracking-wider'>Our Categories</h1>
-            <div className='relative mb-20'>
+    <div className='container  w-[500px] h-screen lg:w-full mx-auto md:w-full mt-[-50px] md:mt-[-60px] lg:mt-[-130px] md:left-4 lg:left-6  xl:mt-[-200px]'>
+        <div className=''>
+            <h1 className=' uppercase pl-4 text-2xl md:text-2xl lg:text-4xl text-left mt-[20px] mb-[50px] leading-4 tracking-[4px]'>Our Categories</h1>
+            <div className='relative mb-10 container mx-auto md:pl-2'>
             
                 <Slider {...settings}>    
-                    {images.map((imgData, index) => <Card key={index} img={imgData.img}/>)}
+                    {images.map((imgData, index) => <Card key={index} img={imgData.img} imgDesc={imgData.imgDesc}/>)}
                 </Slider>
             </div>
-            <div className='text-center mb-20'>
-                <h1 className='text-xm md:text-[50px] uppercase  tracking-widest mb-[6rem]'>One platform for all premium listings</h1>
-                <h2 className='text-xm md:text-[40px] uppercase mb-5 tracking-widest leading-[18px]'>Unlimited potential</h2>
+            <div className='text-center md:mb-10 mb-5'>
+                <h1 className='text-xm md:text-xl uppercase  tracking-[4px] mb-[1rem] md:mb-[2rem]'>One platform for all premium listings</h1>
+                <h2 className='text-xm md:text-lg uppercase mb-5 tracking-[4px] leading-4'>Unlimited potential</h2>
             </div>
         </div>
     </div>
