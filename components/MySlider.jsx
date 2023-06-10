@@ -67,7 +67,7 @@ const MySlider = () => {
 
     }
   return (
-    <div className='container  w-[500px] h-screen lg:w-full mx-auto md:w-full mt-[30px] md:mt-[-0px] lg:mt-[120px] md:left-4 lg:left-6  xl:mt-[130px]'>
+    <div className='container  w-[500px] h-screen lg:w-full mx-auto md:w-full mt-[30px] md:mt-[-0px] lg:mt-[100px] md:left-4 lg:left-6  xl:mt-[130px]'>
         <div className=''>
             <h1 className=' uppercase pl-4 text-2xl md:text-2xl lg:text-4xl text-left mt-[20px] mb-[50px] leading-4 tracking-[4px]'>Our Categories</h1>
             <div className='relative mb-10 container mx-auto md:pl-2'>

@@ -5,9 +5,9 @@ import Image from 'next/image';
 const EntryTickets = () => {
   return (
     <div className="container mx-auto ">
-      <div className=" absolute top-[1500px] md:top-[1600px] lg:mt-[40px] xl:mt-[180px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
+      <div className=" absolute top-[1500px] md:top-[1600px] lg:mt-[40px] xl:mt-[700px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
         <div className="text-left lg:flex-1 lg:justify-left justify-center items-center ">
-          <img src="/zimo-logo.png" className='w-[200px] h-[50px] md:w-[200px] md:h-[60px] lg:w-[290px] lg:h-[90px]'  alt="" />
+          <img src="/zimo-logo.png" className='w-[200px] h-[50px] md:w-[200px] md:h-[60px] lg:w-[230px] lg:h-[90px]'  alt="" />
           <div className=" leading-2 mt-5 uppercase tracking-[4px] text-left mb-3">
             <p className="text-2xl  lg:text-[40px] lg:mb-8">one source</p>
             <p className="text-3xl lg:text-[50px] lg:mb-10">entry tickets</p>
@@ -16,7 +16,7 @@ const EntryTickets = () => {
         </div>
         <div className="lg:items-left justify-center items-center lg:justify-right lg:flex-2 float-right">
           <div
-            className="flex flex-col flex-2 items-center  w-[490px] h-[400px] lg:w-[600px] lg:h-[500px] xl:w-[900px] xl:h-[600px]"
+            className="flex flex-col flex-2 items-center  w-[490px] h-[400px] lg:w-[600px] lg:h-[500px] xl:w-[700px] xl:h-[550px]"
           >
             <img
               src="/65c8a1f0ee7329a44d1812b2f35ced5c.jpg"
