@@ -5,7 +5,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 const LastSection = () => {
   return (
     <div className="container-fluid mx-auto w-[500px] md:w-full relative">
-      <div className='bg-[url("/a127809b20d09f96783f575dbf41f49f.jpg")]  w-full h-[100vh] top-[500px] xl:top-[800px]  bg-cover  bg-no-repeat bg-center flex items-center relative'>
+      <div className='bg-[url("/a127809b20d09f96783f575dbf41f49f.jpg")]  w-full h-[100vh] top-[500px] xl:top-[600px]  bg-cover  bg-no-repeat bg-center flex items-center relative'>
         <div className="container  flex mx-auto lg:w-full px-4 w-[480px] h-[300px] z-10 md:bg-transparent bg-slate-400 opacity-75 md:opacity-1">
           <div className="flex flex-col md:justify-end  items-center text-center md:text-right text-white">
             <div className="w-auto absolute top-[20%] left-[7%] md:left-[60%] md:top-[10%] ">
