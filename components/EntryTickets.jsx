@@ -5,12 +5,12 @@ import Image from 'next/image';
 const EntryTickets = () => {
   return (
     <div className="container mx-auto ">
-      <div className=" absolute top-[1500px] md:top-[1600px] lg:mt-[40px] xl:mt-[500px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
+      <div className=" absolute top-[1500px] md:top-[1600px] lg:mt-[40px] xl:mt-[400px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
         <div className="text-left lg:flex-1 lg:justify-left justify-center items-center ">
-          <img src="/zimo-logo.png" className='w-[200px] h-[50px] md:w-[200px] md:h-[60px] lg:w-[230px] lg:h-[90px]'  alt="" />
+          <img src="/zimo-logo.png" className='w-[200px] h-[50px] md:w-[200px] md:h-[60px] lg:w-[230px] lg:h-[90px] '  alt="" />
           <div className=" leading-2 mt-5 uppercase tracking-[4px] text-left mb-3">
             <p className="text-2xl  lg:text-[40px] lg:mb-8">one source</p>
-            <p className="text-3xl lg:text-[50px] lg:mb-10">entry tickets</p>
+            <p className="text-3xl lg:text-[50px] lg:mb-10 mr-24">entry tickets</p>
             <p className="text-lg md:text-sm lg:text-[20px] lg:mb-5">FOR ALL PREMIUM LISTINGS</p>
           </div>
         </div>
