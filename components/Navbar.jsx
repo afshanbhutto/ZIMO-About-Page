@@ -6,7 +6,6 @@ import {FiMenu} from 'react-icons/fi'
 import moment from 'moment'
 import {AiOutlineClose} from 'react-icons/ai'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
-import Image from 'next/image'
 import axios from 'axios'
 import ReactCountryFlag from 'react-country-flag'
 
@@ -14,7 +13,7 @@ import ReactCountryFlag from 'react-country-flag'
 
 
 const Navbar = () => { 
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
  
   // for location
   const [currLocation , setCurrLocation] = useState();
@@ -87,7 +86,7 @@ const Navbar = () => {
               </div>
               
             </div>
-            <div className='absolute top-[12%] lg:top-[80px] flex flex-col gap-2 text-xm lg:text-xl leading-8 tracking-[2px] uppercase items-center text-white'>
+            <div className='absolute top-[12%] md:top-[80px] lg:top-[80px] flex flex-col gap-2 text-xm lg:text-xl leading-8 tracking-[2px] uppercase items-center text-white'>
                     <button className='flex '>
                     <span className=''><AiOutlineArrowLeft size={30} />
                     </span>

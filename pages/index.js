@@ -21,10 +21,10 @@ const Home = () => {
       <section id='hero-section'>
         <Hero />
       </section>
-      {/* <section id='about-info-section'>
+      <section id='about-info-section'>
         <AboutInfo/>
       </section>
-      <section id='last-section' className='relative'>
+      {/* <section id='last-section' className='relative'>
       <MySlider/>
       <EntryTickets/>
       <LastSection/>

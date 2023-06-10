@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
   return (
     <div className="container-fluid   m-0 p-0 ">
-<div className='bg-[url("/ad08e64c018e38e3d381ca3f8f1ce858.jpg")] h-screen w-[500px] md:w-full m-0 p-0  bg-cover  bg-no-repeat bg-center flex gap-[30%]   flex-col lg:gap-[30%] md:gap-[20%] relative'>
+<div className='bg-[url("/ad08e64c018e38e3d381ca3f8f1ce858.jpg")] h-screen w-[500px] md:w-full lg:w-full m-0 p-0  bg-cover  bg-no-repeat bg-center flex gap-[30%]   flex-col lg:gap-[30%] md:gap-[20%] relative'>
         <div className="absolute insert-0 bg-black/50"></div>
         <Navbar/>
         <div className="container mx-auto px-4 z-10">
@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='text-gray-500 flex flex-col absolute leading-10 inset-x-0 bottom-0 items-center text-center'>
-                <div className='leading-10 uppercase mb-2 lg:mb-6'>
+                <div className='uppercase mb-2 lg:mb-6'>
                     <p className='tracking-[2px] font-normal'>Bringing the world closer together</p>
                 </div>
                 <Link href={"#about-info-section"}>
