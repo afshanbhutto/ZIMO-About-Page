@@ -31,9 +31,9 @@ const Home = () => {
         <section>
           <EntryTickets/>
         </section>
-        {/* <section>
+        <section>
           <LastSection/>
-        </section> */}
+        </section>
       </section>
     
     
