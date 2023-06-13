@@ -28,7 +28,7 @@ const Home = () => {
         <section>
           <MySlider/>
         </section>
-        <section>
+        <section > 
           <EntryTickets/>
         </section>
         <section>

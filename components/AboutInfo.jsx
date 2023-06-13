@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const AboutInfo = () => {
   return (
-    <div className="container  w-[500px] h-screen lg:w-full mx-auto md:w-full ">
+    <div className="container  w-[500px] h-screen min-h-screen lg:w-full mx-auto md:w-full  ">
         <div className="flex items-center justify-center  uppercase mt-5 mb-2 md:mb-4 ">
                 <div className='text-xs  lg:text-sm self-center lg:tracking-[2px] '>A real estate and property platform that is changing the world</div>
         </div>

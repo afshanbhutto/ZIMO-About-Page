@@ -4,9 +4,9 @@ import Image from 'next/image';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 const LastSection = () => {
   return (
-    <div className="container-fluid mx-auto w-[500px] md:w-full relative">
-      <div className='bg-[url("/a127809b20d09f96783f575dbf41f49f.jpg")]  w-full h-[100vh] top-[500px] xl:top-[600px]  bg-cover  bg-no-repeat bg-center flex items-center relative'>
-        <div className="container  flex mx-auto lg:w-full px-4 w-[480px] h-[300px] z-10 md:bg-transparent bg-slate-400 opacity-75 md:opacity-1">
+    <div className="container-fluid mx-auto w-[500px] md:w-full ">
+      <div className='bg-[url("/a127809b20d09f96783f575dbf41f49f.jpg")]  w-full h-[100vh] top-[700px] md:top-[500px] lg:top-[600px] xl:top-[600px]  bg-cover  bg-no-repeat bg-center flex items-center relative'>
+        <div className="container  flex mx-auto lg:w-full px-4 w-[480px] h-[350px] z-10 md:bg-transparent bg-slate-400 opacity-75 md:opacity-1">
           <div className="flex flex-col md:justify-end  items-center text-center md:text-right text-white">
             <div className="w-auto absolute top-[20%] left-[7%] md:left-[60%] md:top-[10%] ">
               <h1 className="text-lg md:text-xl lg:text-3xl font-semibold tracking-wider uppercase mt-0">
