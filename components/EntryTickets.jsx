@@ -5,7 +5,7 @@ import Image from 'next/image';
 const EntryTickets = () => {
   return (
     <div className="container mx-auto ">
-      <div className=" absolute top-[1700px] md:top-[1700px] lg:mt-[40px] xl:mt-[200px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
+      <div className=" absolute top-[1700px] md:top-[1700px] lg:mt-[40px] xl:mt-[250px]  flex items-center justify-center lg:justify-normal lg:gap-x-54 flex-col md:flex-row">
         <div className="text-left lg:flex-1 lg:justify-left justify-center items-center ">
           <img src="/zimo-logo.png" className='w-[200px] h-[50px] md:w-[200px] md:h-[60px] lg:w-[230px] lg:h-[70px] '  alt="" />
           <div className=" leading-2 mt-5 uppercase tracking-[4px] text-left mb-3">
